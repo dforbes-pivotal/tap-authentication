@@ -23,6 +23,7 @@ spec:
     email: tanzu-team-a@vmware.com
     picture: https://example.com/groups/bu-infrastructure.jpeg
   parent: tanzu
+  children: []
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Group
@@ -36,3 +37,4 @@ spec:
     email: tanzu-team-b@vmware.com
     picture: https://example.com/groups/bu-infrastructure.jpeg
   parent: tanzu
+  children: []

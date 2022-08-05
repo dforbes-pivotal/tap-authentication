@@ -38,3 +38,17 @@ spec:
     picture: https://example.com/groups/bu-infrastructure.jpeg
   parent: tanzu
   children: []
+  ---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: tanzu-globals
+  description: The Tanzu Globals business unit
+spec:
+  type: business-unit
+  profile:
+    displayName: Tanzu Globals
+    email: donaldf@vmware.com
+    picture: https://example.com/groups/bu-infrastructure.jpeg
+  parent: tanzu
+  children: []

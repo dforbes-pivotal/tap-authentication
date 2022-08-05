@@ -1,0 +1,26 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: tanzu
+  description: The Tanzu business unit
+spec:
+  type: business-unit
+  profile:
+    displayName: Tanzu
+    email: tanzu@vmware.com
+    picture: https://example.com/groups/bu-infrastructure.jpeg
+  children: [team-a, team-b]
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: team-a
+  description: The Tanzu business unit
+spec:
+  type: business-unit
+  profile:
+    displayName: Tanzu Team A
+    email: tanzu-team-a@vmware.com
+    picture: https://example.com/groups/bu-infrastructure.jpeg
+  parent: tanzu
+ 

@@ -5,6 +5,6 @@ metadata:
 spec:
   profile:
     displayName: Donald Forbes
-    email: donaldf@vmware.com
+    email: donaldf-todo@vmware.com
     picture: https://example.com/staff/jenny-with-party-hat.jpeg
   memberOf: [tanzu, team-a, tanzu-globals, tanzu-demo]

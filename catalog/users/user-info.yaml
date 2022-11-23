@@ -1,10 +1,10 @@
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
-  name: donaldforbes
+  name: donaldf
 spec:
   profile:
     displayName: Donald Forbes
-    email: donald.forbes@vmware.com
+    email: donaldf@vmware.com
     picture: https://example.com/staff/jenny-with-party-hat.jpeg
-  memberOf: [tanzu, team-a, tanzu-globals]
+  memberOf: [tanzu, team-a, tanzu-globals, tanzu-demo]

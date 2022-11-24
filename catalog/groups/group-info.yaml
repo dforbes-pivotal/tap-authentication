@@ -48,7 +48,7 @@ spec:
   type: business-unit
   profile:
     displayName: Tanzu Globals
-    email: donaldf@vmware.com
+    email: tanzu-globals@vmware.com
     picture: https://example.com/groups/bu-infrastructure.jpeg
   parent: tanzu
   children: []
